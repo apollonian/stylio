@@ -5,6 +5,8 @@ import { createStore } from 'redux';
 import todoApp from './reducers';
 import App from './components/App';
 
+import '../node_modules/modern-normalize/modern-normalize.css';
+
 let store = createStore(
   todoApp,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
